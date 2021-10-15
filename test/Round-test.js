@@ -69,8 +69,6 @@ describe('Round', function() {
     round.takeTurn('array');
     round.takeTurn('array');
 
-    console.log(round.calculatePercentCorrect());
-
     expect(round.calculatePercentCorrect()).to.equal(66);
   });
 
